@@ -5,7 +5,7 @@ import { SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#home" className="footer__logo">
         DEMON
       </a>
 

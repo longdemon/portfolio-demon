@@ -78,6 +78,12 @@
 
 .about__content-btn a {
     margin-right: 2rem;
+    min-width: 7rem;
+    text-align: center;
+}
+
+.about__content-btn small {
+    min-width: 5.5rem;
 }
 
 /*============== MEDIA QUERIES (MEDIUM DEVICE) ==========*/

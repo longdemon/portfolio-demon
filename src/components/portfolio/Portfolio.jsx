@@ -1,44 +1,42 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/image/portfolio1.jpg";
-import IMG2 from "../../assets/image/portfolio2.jpg";
-import IMG3 from "../../assets/image/portfolio3.jpg";
+import IMG1 from "../../assets/image/background_tmp.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Title here",
+    title: "Update soon",
     github: "https://github.com",
   },
   {
     id: 2,
-    image: IMG2,
-    title: "Title here",
+    image: IMG1,
+    title: "Update soon",
     github: "https://github.com",
   },
   {
     id: 3,
-    image: IMG3,
-    title: "Title here",
+    image: IMG1,
+    title: "Update soon",
     github: "https://github.com",
   },
   {
     id: 4,
     image: IMG1,
-    title: "Title here",
+    title: "Update soon",
     github: "https://github.com",
   },
   {
     id: 5,
     image: IMG1,
-    title: "Title here",
+    title: "Update soon",
     github: "https://github.com",
   },
   {
     id: 6,
     image: IMG1,
-    title: "Title here",
+    title: "Update soon",
     github: "https://github.com",
   },
 ];
