@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-demon/static/css/main.8ceb963a.css",
-    "main.js": "/portfolio-demon/static/js/main.5372b0da.js",
+    "main.css": "/portfolio-demon/static/css/main.146af7c9.css",
+    "main.js": "/portfolio-demon/static/js/main.82510899.js",
     "static/media/me.png": "/portfolio-demon/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/demon.jpg": "/portfolio-demon/static/media/demon.1496c13da76ecfe0d8df.jpg",
     "static/media/CV-Nguyen Vu Long.pdf": "/portfolio-demon/static/media/CV-Nguyen Vu Long.e00d1560ac2c6dd7c56f.pdf",
-    "static/media/portfolio2.jpg": "/portfolio-demon/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio1.jpg": "/portfolio-demon/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
-    "static/media/portfolio3.jpg": "/portfolio-demon/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/background_tmp.jpg": "/portfolio-demon/static/media/background_tmp.e45fa87d9d7dc7d131cd.jpg",
     "index.html": "/portfolio-demon/index.html",
-    "main.8ceb963a.css.map": "/portfolio-demon/static/css/main.8ceb963a.css.map",
-    "main.5372b0da.js.map": "/portfolio-demon/static/js/main.5372b0da.js.map"
+    "main.146af7c9.css.map": "/portfolio-demon/static/css/main.146af7c9.css.map",
+    "main.82510899.js.map": "/portfolio-demon/static/js/main.82510899.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ceb963a.css",
-    "static/js/main.5372b0da.js"
+    "static/css/main.146af7c9.css",
+    "static/js/main.82510899.js"
   ]
 }
