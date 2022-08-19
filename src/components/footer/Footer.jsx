@@ -42,7 +42,8 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Web was created depending on the tutorials of EGATOR</small>
+        <small>&copy; Web was created depending on the tutorials of EGATOR</small> <br/>
+        <a href="https://www.youtube.com/watch?v=G-Cr00UYokU" target="_blank" rel="noopener noreferrer">Tutorial Video</a>
       </div>
     </footer>
   );
