@@ -25,6 +25,10 @@
     overflow: hidden;
 }
 
+.portfolio__title{
+    min-height: 4rem;
+}
+
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
 }
