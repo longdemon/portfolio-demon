@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/image/background_tmp.jpg";
 import FLRBMS from "../../assets/image/FLRBMS.png";
 import Halloween from "../../assets/image/Halloween.png";
+import Game from "../../assets/image/2048.png";
 
 const data = [
   {
@@ -21,10 +22,10 @@ const data = [
   },
   {
     id: 3,
-    image: IMG1,
-    title: "Update soon",
-    github: "https://github.com",
-    demo: null,
+    image: Game,
+    title: "2048 Game",
+    github: "https://github.com/longdemon/2048",
+    demo: "https://longdemon.github.io/2048-game/",
   },
   {
     id: 4,
