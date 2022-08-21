@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-demon/static/css/main.146af7c9.css",
-    "main.js": "/portfolio-demon/static/js/main.187f01e6.js",
+    "main.css": "/portfolio-demon/static/css/main.d2f0f944.css",
+    "main.js": "/portfolio-demon/static/js/main.4f80f3a3.js",
     "static/media/me.png": "/portfolio-demon/static/media/me.7b17b6319303297b3cda.png",
     "static/media/demon.jpg": "/portfolio-demon/static/media/demon.1496c13da76ecfe0d8df.jpg",
     "static/media/CV-Nguyen Vu Long.pdf": "/portfolio-demon/static/media/CV-Nguyen Vu Long.e00d1560ac2c6dd7c56f.pdf",
+    "static/media/Halloween.png": "/portfolio-demon/static/media/Halloween.22228456ea9f52bfaaae.png",
     "static/media/background_tmp.jpg": "/portfolio-demon/static/media/background_tmp.e45fa87d9d7dc7d131cd.jpg",
+    "static/media/FLRBMS.png": "/portfolio-demon/static/media/FLRBMS.7c94694bc615c5a9b957.png",
     "index.html": "/portfolio-demon/index.html",
-    "main.146af7c9.css.map": "/portfolio-demon/static/css/main.146af7c9.css.map",
-    "main.187f01e6.js.map": "/portfolio-demon/static/js/main.187f01e6.js.map"
+    "main.d2f0f944.css.map": "/portfolio-demon/static/css/main.d2f0f944.css.map",
+    "main.4f80f3a3.js.map": "/portfolio-demon/static/js/main.4f80f3a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.146af7c9.css",
-    "static/js/main.187f01e6.js"
+    "static/css/main.d2f0f944.css",
+    "static/js/main.4f80f3a3.js"
   ]
 }
