@@ -25,7 +25,7 @@ const data = [
     image: Game,
     title: "2048 Game",
     github: "https://github.com/longdemon/2048",
-    demo: "https://longdemon.github.io/2048-game/",
+    demo: "https://longdemon.github.io/2048/",
   },
   {
     id: 4,
