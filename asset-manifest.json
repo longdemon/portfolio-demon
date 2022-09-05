@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio-demon/static/css/main.d2f0f944.css",
-    "main.js": "/portfolio-demon/static/js/main.eb0c6194.js",
+    "main.js": "/portfolio-demon/static/js/main.594537a2.js",
     "static/media/me.png": "/portfolio-demon/static/media/me.7b17b6319303297b3cda.png",
     "static/media/demon.jpg": "/portfolio-demon/static/media/demon.1496c13da76ecfe0d8df.jpg",
-    "static/media/CV-Nguyen Vu Long.pdf": "/portfolio-demon/static/media/CV-Nguyen Vu Long.3f3802724a20956d50bb.pdf",
+    "static/media/Booking_app.png": "/portfolio-demon/static/media/Booking_app.82d6f4184ba7ae5048ff.png",
+    "static/media/CV-Nguyen Vu Long.pdf": "/portfolio-demon/static/media/CV-Nguyen Vu Long.f4d1d5152e7625c82f87.pdf",
     "static/media/2048.png": "/portfolio-demon/static/media/2048.1bba5530b824c9561445.png",
     "static/media/Halloween.png": "/portfolio-demon/static/media/Halloween.22228456ea9f52bfaaae.png",
     "static/media/background_tmp.jpg": "/portfolio-demon/static/media/background_tmp.e45fa87d9d7dc7d131cd.jpg",
     "static/media/FLRBMS.png": "/portfolio-demon/static/media/FLRBMS.7c94694bc615c5a9b957.png",
     "index.html": "/portfolio-demon/index.html",
     "main.d2f0f944.css.map": "/portfolio-demon/static/css/main.d2f0f944.css.map",
-    "main.eb0c6194.js.map": "/portfolio-demon/static/js/main.eb0c6194.js.map"
+    "main.594537a2.js.map": "/portfolio-demon/static/js/main.594537a2.js.map"
   },
   "entrypoints": [
     "static/css/main.d2f0f944.css",
-    "static/js/main.eb0c6194.js"
+    "static/js/main.594537a2.js"
   ]
 }
