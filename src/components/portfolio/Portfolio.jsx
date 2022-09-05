@@ -4,6 +4,7 @@ import IMG1 from "../../assets/image/background_tmp.jpg";
 import FLRBMS from "../../assets/image/FLRBMS.png";
 import Halloween from "../../assets/image/Halloween.png";
 import Game from "../../assets/image/2048.png";
+import BookingApp from "../../assets/image/Booking_app.png";
 
 const data = [
   {
@@ -29,9 +30,9 @@ const data = [
   },
   {
     id: 4,
-    image: IMG1,
-    title: "Update soon",
-    github: "https://github.com",
+    image: BookingApp,
+    title: "Booking app",
+    github: "https://github.com/longdemon/BOOKING_APP",
     demo: null,
   },
   {
