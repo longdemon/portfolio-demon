@@ -2,7 +2,8 @@ import "./contact.css";
 
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
-
+import { showNotification, updateNotification } from '@mantine/notifications';
+import { IconCheck } from '@tabler/icons';
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -11,6 +12,15 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    showNotification({
+      id: 'send-notification',
+      loading: true,
+      title: 'Sending',
+      message: 'Your message is being sent',
+      autoClose: false,
+      disallowClose: true,
+    });
 
     emailjs
       .sendForm(
@@ -21,10 +31,23 @@ const Contact = () => {
       )
       .then(
         () => {
+          updateNotification({
+            id: 'send-notification',
+            title: 'Success',
+            message: 'Your message has been sent to Long Demon successfully',
+            icon: <IconCheck size={16} />,
+              autoClose: 2000,
+          })
           e.target.reset();
         },
         (error) => {
-          console.log(error.text);
+          updateNotification({
+            id: 'send-notification',
+            color: 'red',
+            title: 'Error while send message',
+            message: error.text ?? 'Failed to send message',
+            autoClose: 3000,
+          })
         }
       );
   };
