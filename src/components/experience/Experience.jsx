@@ -54,7 +54,15 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Next JS</h4>
+                <h4>NextJS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>VueJS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
