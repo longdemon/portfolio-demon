@@ -28,26 +28,28 @@ const AboutJapanese = (props) => {
                 <article className="about__card">
                   <FaAward className="about__icon" />
                   <h5 className="text-japanese">経験</h5>
-                  <small className="text-japanese">卒業したばかり</small>
+                  <small className="text-japanese">6ヶ月</small>
                 </article>
 
                 <article className="about__card">
                   <FiUser className="about__icon" />
                   <h5 className="text-japanese">来客</h5>
-                  <small className="text-japanese">未だ</small>
+                  <small className="text-japanese">２</small>
                 </article>
 
                 <article className="about__card">
                   <BsFolderCheck className="about__icon" />
                   <h5 className="text-japanese">プロジェクト</h5>
-                  <small className="text-japanese">10+ 出来る</small>
+                  <small className="text-japanese">5+ 出来る</small>
                 </article>
               </div>
 
               <p className="text-japanese">
-                新卒者として、私は自分の熱意を使って仕事の経験の不足を補います。
-                情報技術の実践的な知識を高めたいと考えています。
-                できれば日本で働く機会が欲しいです。
+              私はIT業界で働いている経験6ヶ月の若いプログラマーです。論理的思考力と新しい技術への好奇心があり、常に自分のスキルを学び、開発しようと努めています。
+              <br /><br />
+              私が取り組んできたプロジェクトでは、パフォーマンスの最適化、セキュリティの向上、ユーザーエクスペリエンスの改善に重点を置いてきました。Java、JavaScript、HTML/CSSなどの言語、React、NodeJs、NestJS、NextJS、VueJS、Angularなどのフレームワークを使用して、デスクトップおよびWebソフトウェアのプログラミングの経験があります。
+              <br /><br />
+              また、私はチームでの作業とGitなどのプロジェクト管理ツールの使用経験もあります。
               </p>
               <div className="about__content-btn">
                 <a href="#contact" className="btn btn-primary text-japanese">

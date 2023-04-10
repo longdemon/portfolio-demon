@@ -6,8 +6,17 @@ import Halloween from "../../assets/image/Halloween.png";
 import Game from "../../assets/image/2048.png";
 import BookingApp from "../../assets/image/Booking_app.png";
 import Lofi from "../../assets/image/lofi.png";
+import LearningHub from "../../assets/image/learningHub.png";
+
 
 const data = [
+  {
+    id: 6,
+    image: LearningHub,
+    title: "Learing hub",
+    github: "private",
+    demo: null,
+  },
   {
     id: 1,
     image: FLRBMS,
@@ -42,13 +51,6 @@ const data = [
     title: "Lofi app",
     github: "https://github.com/longdemon/lofi-clone",
     demo: "https://lofi-clone.vercel.app/",
-  },
-  {
-    id: 6,
-    image: IMG1,
-    title: "Update soon",
-    github: "https://github.com",
-    demo: null,
   },
 ];
 

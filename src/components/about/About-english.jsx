@@ -26,27 +26,28 @@ const AboutEnglish = (props) => {
                   <article className="about__card">
                     <FaAward className="about__icon" />
                     <h5>Experience</h5>
-                    <small>Just graduated</small>
+                    <small>6 months</small>
                   </article>
 
                   <article className="about__card">
                     <FiUser className="about__icon" />
                     <h5>Clients</h5>
-                    <small>Not yet</small>
+                    <small>2</small>
                   </article>
 
                   <article className="about__card">
                     <BsFolderCheck className="about__icon" />
                     <h5>Projects</h5>
-                    <small>10+ completed</small>
+                    <small>5+ completed</small>
                   </article>
                 </div>
 
                 <p>
-                  As a fresh graduate, I will use my enthusiasm to make up for
-                  my lack of work experience. I am looking to enhance my
-                  practical knowledge in information technology. I would like
-                  the opportunity to work in Japan if possible.
+                I am a young programmer with 6 months of experience working in the IT industry. With a good logical thinking ability and curiosity about new technologies, I always try to learn and develop my skills.
+                <br /><br />
+In the projects I have worked on, I usually focus on optimizing performance, increasing security, and improving user experience. I have experience in programming desktop and web software, using languages ​​such as Java, JavaScript, HTML/CSS, and frameworks such as React, NodeJs, NestJS, NextJS, VueJS, Angular.
+<br /><br />
+In addition, I also have experience working in teams and using project management tools such as Git.
                 </p>
                 <div className="about__content-btn">
                   <a href="#contact" className="btn btn-primary">

@@ -3,6 +3,58 @@ import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
 const Experience = () => {
+  const listSkillFE = [
+    {
+      name: 'HTML',
+      level: 'Experienced'
+    },
+    {
+      name: 'CSS',
+      level: 'Experienced'
+    },
+    {
+      name: 'Javascript',
+      level: 'Experienced'
+    },
+    {
+      name: 'React',
+      level: 'Experienced'
+    },
+    {
+      name: 'NextJS',
+      level: 'Intermediate'
+    },
+    {
+      name: 'VueJS',
+      level: 'Intermediate'
+    },
+    {
+      name: 'Angular',
+      level: 'Basic'
+    }
+  ]
+  const listkillBE = [
+    {
+      name: 'NodeJS',
+      level: 'Intermediate'
+    },
+    {
+      name: 'NestJS',
+      level: 'Intermediate'
+    },
+    {
+      name: 'Java',
+      level: 'Basic'
+    },
+    {
+      name: 'MySQL',
+      level: 'Intermediate'
+    },
+    {
+      name: 'PostgreSQL',
+      level: 'Intermediate'
+    },
+  ]
   return (
     <section id="experience" className="experience">
       <h5>What Skills I Have</h5>
@@ -19,53 +71,15 @@ const Experience = () => {
             <p className="text-japanese">フロントエンド開発</p>
           </h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Javascript</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>NextJS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>VueJS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+            {listSkillFE.map(skill => (
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  <h4>{skill.name}</h4>
+                  <small className="text-light">{skill.level}</small>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
 
@@ -75,45 +89,15 @@ const Experience = () => {
             <p className="text-japanese">バックエンド開発</p>
           </h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Nest JS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Java</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>PostgreSQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+            {listkillBE.map(skill => (
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  <h4>{skill.name}</h4>
+                  <small className="text-light">{skill.level}</small>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </div>
